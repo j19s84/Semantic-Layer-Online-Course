@@ -211,9 +211,9 @@ metrics:
       expr: revenue - cost
       metrics:
         - name: order_total
-        alias: revenue
+          alias: revenue
         - name: order_amount
-        alias: cost  
+          alias: cost  
 saved_queries:
   - name: order_metrics
     description: testing out order metrics in one table 
